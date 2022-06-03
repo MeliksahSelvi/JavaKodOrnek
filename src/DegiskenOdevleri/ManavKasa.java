@@ -1,4 +1,4 @@
-package Giris;
+package DegiskenOdevleri;
 import java.util.Scanner;
 public class ManavKasa {
     public static void main(String[] args) {

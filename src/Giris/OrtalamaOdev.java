@@ -1,8 +1,7 @@
 package Giris;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Baslangic {
+public class OrtalamaOdev {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int mat,turkce,fizik,kimya,biyo,tarih;

@@ -3,6 +3,19 @@ import  java.util.Scanner;
 
 
 public class FibonaSeri {
+
+    static int fibo(int fiboSayi){
+
+        if(fiboSayi>0){
+
+            return fiboSayi+fibo((fiboSayi-1));
+        }
+
+        else{
+
+            return 0;
+        }
+    }
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);
